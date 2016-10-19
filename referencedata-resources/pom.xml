@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ecg.referencedata</groupId>
+        <artifactId>referencedata-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../referencedata-parent</relativePath>
+    </parent>
+    <!--    <groupId>com.skg.referencedata</groupId>-->
+    <artifactId>referencedata-resources</artifactId>
+    <packaging>war</packaging>
+    <name>referencedata-resources</name>
+    <description>
+        Contains all static data for web application like *.js script
+        files, images, *.css style files. *.tld descriptor files.
+    </description>
+   	
+   
+</project>

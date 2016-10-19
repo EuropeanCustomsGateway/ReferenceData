@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd" >
+
+    <diskStore path="java.io.tmpdir"/>
+
+    <defaultCache
+        maxElementsInMemory="10000000"
+        eternal="false"
+        timeToIdleSeconds="120"
+        timeToLiveSeconds="120"
+        overflowToDisk="true"
+        diskPersistent="false"
+        diskExpiryThreadIntervalSeconds="120"
+        memoryStoreEvictionPolicy="LRU"
+    />
+
+    <cache name="com.wakaleo.articles.caching.businessobjects.Country" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractDataTypeEntity" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractItemEntity" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.commons.ReferenceDataPeriodicValidityAbstractItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <!-- Proper JPA entities -->
+
+    <!-- Customs office entities -->
+
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeDedicatedTraderItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeLSDItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeRoleTrafficItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeSpecificNotesItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeTimetableItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeTimetableLineItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <!-- Holiday entities -->
+
+    <cache name="org.ecg.refdata.datasource.entities.countryHoliday.CountryHolidayDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryHoliday.CountryHolidayItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryHoliday.HolidayItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryHoliday.HolidayLSDItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <!-- Country entities -->
+
+    <cache name="org.ecg.refdata.datasource.entities.countryRegion.CountryRegionDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryRegion.CountryRegionItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryRegion.CountryRegionLSDItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <!-- Other entities -->
+
+    <cache name="org.ecg.refdata.datasource.entities.NameAndDescriptionItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.codeDescription.CodeDescriptionItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.correlation.CorrelationDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.correlation.CorrelationItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.country.CountryDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.country.CountryItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.documentType.DocumentTypeDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.documentType.DocumentTypeItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.exchangeRate.ExchangeRateDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.exchangeRate.ExchangeRateItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.location.LocationDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.location.LocationItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <cache name="org.ecg.refdata.datasource.entities.simpleItem.SimpleItemDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.simpleItem.SimpleItemItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.unLocode.UnLocodeDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.unLocode.UnLocodeItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <cache name="org.ecg.refdata.datasource.entities.comodityCode.CommodityCodeDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.comodityCode.CommodityCodeItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <cache name="org.ecg.refdata.datasource.entities.countryUnavailability.CountryUnavailabilityDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryUnavailability.CountryUnavailabilityItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.countryUnavailability.SystemUnavailabilityItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <cache name="org.ecg.refdata.datasource.entities.localClearanceAuthorization.LocalClearanceAuthorizationDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.localClearanceAuthorization.LocalClearanceAuthorizationItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+    <cache name="org.ecg.refdata.datasource.entities.valueAdjustment.ValueAdjustmentDataType" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+    <cache name="org.ecg.refdata.datasource.entities.valueAdjustment.ValueAdjustmentItem" maxElementsInMemory="1000000" eternal="false" overflowToDisk="false" />
+
+
+
+</ehcache>

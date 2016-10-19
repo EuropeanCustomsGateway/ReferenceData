@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath:org/ecg/refdata/referencedata-core-default.properties" />
+        <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+    </bean>
+    <bean id="datasourceEJB"
+		class="org.ecg.refdata.datasource.ejb.client.PersistenceBeanClient"
+		singleton="true">
+        <property name="connectionProperties">
+            <map>
+                <entry key="namingFactory" value="${RefData.datasourceEJB.namingFactory}"/>
+                <entry key="providerUrl" value="${RefData.datasourceEJB.providerUrl}"/>
+                <entry key="jndiName" value="${RefData.datasourceEJB.jndiName}"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="referenceData" class="org.ecg.refdata.core.common.CommonReferenceDataConfig">
+        <property name="datasources">
+            <map>
+                <entry key="datasourceEJB" value-ref="datasourceEJB"/>
+            </map>
+        </property>
+        <property name="dictionaryConfigList">
+            <list/>                
+        </property>
+    </bean>
+    
+	<!--
+		DictionaryConfigList contains correlation between reference data
+		source, types of dictionary and default column names.1
+
+	<bean id="referenceData" class="org.ecg.refdata.core.spring.SpringReferenceDataConfig">
+		<property name="dictionaryConfigList">
+			<list>
+				<ref bean="cfgCommodityCode" />
+				<ref bean="cfgCorrelation" />
+				<ref bean="cfgCountry" />
+				<ref bean="cfgCountryHoliday" />
+				<ref bean="cfgCountryRegion" />
+				<ref bean="cfgCustomsOffice" />
+				<ref bean="cfgExchangeRate" />
+				<ref bean="cfgLocation" />
+				<ref bean="cfgSimpleItem" />
+				<ref bean="cfgUN-LOCODE" />
+				<ref bean="cfgValueAdjustment" />
+				<ref bean="cfgCountryUnavailability" />
+				<ref bean="cfgLocalClearance" />
+			</list>
+		</property>
+	</bean>
+
+		The dictionaries object contains link between dictionary id and
+		DictionaryDescriptor.
+    -->
+    <!--
+	<bean id="cfgCommodityCode" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="code" />
+		<property name="defColumns" value="code,description" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="16LT" />
+	</bean>
+	<bean id="cfgCorrelation" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="code1" />
+		<property name="defColumns" value="code1,code2" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="19LT,20LT,21LT,33LT,35LT,30LT,31LT" />
+	</bean>
+	<bean id="cfgCountry" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="countryCode" />
+		<property name="defColumns" value="countryCode,description" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="10,8I,8E" />
+	</bean>
+	<bean id="cfgCountryHoliday" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="countryCode" />
+		<property name="defColumns" value="countryCode,name" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="CH" />
+	</bean>
+	<bean id="cfgCountryRegion" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="countryRegionCode" />
+		<property name="defColumns" value="countryRegionCode,countryRegionName" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="CRH" />
+	</bean>
+	<bean id="cfgCustomsOffice" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="referenceNumber" />
+		<property name="defColumns" value="referenceNumber,usualName" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="COL" />
+	</bean>
+	<bean id="cfgExchangeRate" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="rateLTL" />
+		<property name="defColumns" value="rateLTL,rateEUR,currency" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="23LT" />
+	</bean>
+	<bean id="cfgLocation" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="referenceNumber" />
+		<property name="defColumns" value="referenceNumber,name" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="1LT,2LT" />
+	</bean>
+	<bean id="cfgSimpleItem" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="code" />
+		<property name="defColumns" value="code,description" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="1,101E,101I,103,104,105,106I,108I,109I,10LT,11,116E,116I,11LT,12,12LT,13LT,14LT,15,15LT,17,17LT,18,18LT,20,21,22,22LT,23,24,24LT,25LT,26,27LT,28LT,29LT,30,31E,32,32LT,33,34,34LT,35,36,36LT_13E,36LT_13I,37,37LT_14E,37LT_14I,38LT_39E,38LT_39I,39LT_45E,39LT_45I,3LT,40LT_47,41,58,42LT_98,43E,43I,43LT_102E,43LT_102I,44LT_91,45LT_49,46E,46I,47,47LT,48LT,49,51,53,56,5LT,60E,60I,67,68E,68I,69,70,79,7LT,86,87,89,8LT,90,92E,92I,93E,93I,94,95,96E,96I,97E,97I,99,9LT" />
+	</bean>
+	<bean id="cfgUN-LOCODE" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="unLocodeId" />
+		<property name="defColumns" value="unLocodeId,unLocodeName" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="UNL" />
+	</bean>
+	<bean id="cfgValueAdjustment" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="code" />
+		<property name="defColumns" value="code,description" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="6LT" />
+	</bean>
+	<bean id="cfgCountryUnavailability" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="countryCode" />
+		<property name="defColumns" value="countryCode,businessFunctionality,downtimeFrom,systemUnavailabilityType,downtimeTo,explanation" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="CUN" />
+	</bean>
+	<bean id="cfgLocalClearance" class="org.ecg.refdata.core.spring.SpringDictionaryConfig">
+		<property name="defItemsOnPage" value="10" />
+		<property name="defSearchColumn" value="reference" />
+		<property name="defColumns" value="reference,tin,validFrom,validTo,goodsReleaseTimeLimit" />
+		<property name="defMinTextSearchLength" value="0" />
+		<property name="refDataSource" ref="datasourceEJB" />
+		<property name="dictionariesTypesString" value="LocalClearance" />
+	</bean>
+
+    -->
+</beans>

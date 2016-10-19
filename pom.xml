@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ecg.referencedata</groupId>
+    <artifactId>referencedata-all</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>referencedata-all</name>
+    <!--    <scm>
+        <connection>scm:svn:svn://maven.skg.pl/home/svn/skg-svn/skg-referencedata/src/trunk</connection>
+        <developerConnection>scm:svn:svn://maven.skg.pl/home/svn/skg-svn/skg-referencedata/src/trunk</developerConnection>
+    </scm>-->
+    
+    <!--    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <configuration>
+                        <tagBase>svn://maven.skg.pl/home/svn/skg-svn/skg-referencedata/src/tags</tagBase>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>-->
+    <modules>
+        <module>referencedata-parent</module>
+        <module>referencedata-common</module>
+        <module>referencedata-DS-xml</module>
+        <module>referencedata-DS-ejb</module>
+        <module>referencedata-core</module>
+        <module>referencedata-ejbFacade</module>
+        <module>referencedata-resources</module>
+        <module>referencedata-tld</module>
+        <module>referencedata-ear</module>
+    </modules>
+</project>

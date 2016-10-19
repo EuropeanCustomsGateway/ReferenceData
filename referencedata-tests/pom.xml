@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ecg.referencedata</groupId>
+        <artifactId>referencedata-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../referencedata-parent/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>referencedata-tests</artifactId>
+    <!--
+            do not use parent reference in multi parent projects - it causes
+            strange maven compilation problems
+    -->
+    
+    <packaging>pom</packaging>
+    <name>referencedata-tests</name>
+    <description>Groups of artifacts for referenceData testing</description>
+    <profiles>
+        <profile>
+            <id>test-all</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>referencedata-test-tld</module>
+                <module>referencedata-test-ejb</module>
+                <module>referencedata-test-ear</module>
+                <module>referencedata-sampledata-generator</module>
+                <module>referencedata-test-remoteClient</module>				
+            </modules>
+        </profile>
+        <profile>
+            <id>test-tld</id>
+            <modules>
+                <module>referencedata-test-tld</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>test-ejb</id>
+            <modules>
+                <module>referencedata-test-ejb</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>test-ear</id>
+            <modules>
+                <module>referencedata-test-ear</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

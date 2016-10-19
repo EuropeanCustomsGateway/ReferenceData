@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ReferenceData id="97E" itemType="SimpleItem" lastChange="2013-08-13"
+      xmlns:ns="http://rep.xmlstandards.eu/icdts/LT/schemas/ReferenceData.xsd">
+  <ns:NameAndDescription languageCode="EN" name="Summary declaration rejection reason"/>
+  <ns:SimpleItem code="3" validFrom="2013-02-15" validTo="2014-05-31">
+    <ns:CodeDescription description="MRN или Entry key непознат" languageCode="BG"/>
+    <ns:CodeDescription description="MRN nebo Entry key nejsou známy" languageCode="CS"/>
+    <ns:CodeDescription description="MRN eller Datanøgle ukendt" languageCode="DA"/>
+    <ns:CodeDescription description="Άγνωστο MRN η άγνωστα αναγνωριστικά στοιχεία εισόδου (Entry Key)" languageCode="EL"/>
+    <ns:CodeDescription description="MRN või Entry Key on tundmatu" languageCode="ET"/>
+    <ns:CodeDescription description="MRN nepoznat" languageCode="HR"/>
+    <ns:CodeDescription description="MRN arba įvežimo raktas nežinomas" languageCode="LT"/>
+    <ns:CodeDescription description="MRN of zoeksleutel onbekend" languageCode="NL"/>
+    <ns:CodeDescription description="NRM ou Dados Chave desconhecidos" languageCode="PT"/>
+    <ns:CodeDescription description="MRN neznana" languageCode="SL"/>
+    <ns:CodeDescription description="MRN alebo vstupný kľúč neznáme" languageCode="SK"/>
+    <ns:CodeDescription description="MRN sau Entry key necunoscute" languageCode="RO"/>
+    <ns:CodeDescription description="MRN lub dane identyfikujące PDS nie istnieją" languageCode="PL"/>
+    <ns:CodeDescription description="MRN vai Entry key nav zināms" languageCode="LV"/>
+    <ns:CodeDescription description="MRN vagy belépési kulcs ismeretlen" languageCode="HU"/>
+    <ns:CodeDescription description="MRN tai yksilöivä kuljetusvälinetunnus tuntematon" languageCode="FI"/>
+    <ns:CodeDescription description="MRN or Entry key unknown" languageCode="EN"/>
+    <ns:CodeDescription description="MRN oder Nummer der Eingangszollstelle unbekannt" languageCode="DE"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="3" validFrom="2010-04-21" validTo="2013-02-14">
+    <ns:CodeDescription description="MRN oder Nummer der Eingangszollstelle unbekannt" languageCode="DE"/>
+    <ns:CodeDescription description="MRN или Entry key непознат" languageCode="BG"/>
+    <ns:CodeDescription description="MRN nebo Entry key nejsou známy" languageCode="CS"/>
+    <ns:CodeDescription description="MRN eller Datanøgle ukendt" languageCode="DA"/>
+    <ns:CodeDescription description="Άγνωστο MRN η άγνωστα αναγνωριστικά στοιχεία εισόδου (Entry Key)" languageCode="EL"/>
+    <ns:CodeDescription description="MRN või Entry Key on tundmatu" languageCode="ET"/>
+    <ns:CodeDescription description="MRN vagy belépési kulcs ismeretlen" languageCode="HU"/>
+    <ns:CodeDescription description="MRN vai Entry key nav zināms" languageCode="LV"/>
+    <ns:CodeDescription description="MRN lub dane identyfikujące PDS nie istnieją" languageCode="PL"/>
+    <ns:CodeDescription description="MRN sau Entry key necunoscute" languageCode="RO"/>
+    <ns:CodeDescription description="MRN neznana" languageCode="SL"/>
+    <ns:CodeDescription description="MRN alebo vstupný kľúč neznáme" languageCode="SK"/>
+    <ns:CodeDescription description="NRM ou Dados Chave desconhecidos" languageCode="PT"/>
+    <ns:CodeDescription description="MRN of zoeksleutel onbekend" languageCode="NL"/>
+    <ns:CodeDescription description="MRN arba įvežimo raktas nežinomas" languageCode="LT"/>
+    <ns:CodeDescription description="MRN tai yksilöivä kuljetusvälinetunnus tuntematon" languageCode="FI"/>
+    <ns:CodeDescription description="MRN or Entry key unknown" languageCode="EN"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="4" validFrom="2010-04-21" validTo="2013-02-14">
+    <ns:CodeDescription description="Други  причини" languageCode="BG"/>
+    <ns:CodeDescription description="Jiné důvody" languageCode="CS"/>
+    <ns:CodeDescription description="Andre årsager" languageCode="DA"/>
+    <ns:CodeDescription description="Άλλοι λόγοι" languageCode="EL"/>
+    <ns:CodeDescription description="Muud põhjused" languageCode="ET"/>
+    <ns:CodeDescription description="Egyéb ok" languageCode="HU"/>
+    <ns:CodeDescription description="Citi iemesli" languageCode="LV"/>
+    <ns:CodeDescription description="Inne przyczyny" languageCode="PL"/>
+    <ns:CodeDescription description="Alte motive" languageCode="RO"/>
+    <ns:CodeDescription description="Drugi razlogi" languageCode="SL"/>
+    <ns:CodeDescription description="Ostatné príčíny" languageCode="SK"/>
+    <ns:CodeDescription description="Outras Razões" languageCode="PT"/>
+    <ns:CodeDescription description="andere reden" languageCode="NL"/>
+    <ns:CodeDescription description="Kitos priežastys" languageCode="LT"/>
+    <ns:CodeDescription description="Muut syyt" languageCode="FI"/>
+    <ns:CodeDescription description="Other reasons" languageCode="EN"/>
+    <ns:CodeDescription description="andere Gründe" languageCode="DE"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="4" validFrom="2013-02-15">
+    <ns:CodeDescription description="Други  причини" languageCode="BG"/>
+    <ns:CodeDescription description="Jiné důvody" languageCode="CS"/>
+    <ns:CodeDescription description="Andre årsager" languageCode="DA"/>
+    <ns:CodeDescription description="Άλλοι λόγοι" languageCode="EL"/>
+    <ns:CodeDescription description="Muud põhjused" languageCode="ET"/>
+    <ns:CodeDescription description="Ostali razlozi" languageCode="HR"/>
+    <ns:CodeDescription description="Kitos priežastys" languageCode="LT"/>
+    <ns:CodeDescription description="andere reden" languageCode="NL"/>
+    <ns:CodeDescription description="Outras Razões" languageCode="PT"/>
+    <ns:CodeDescription description="Drugi razlogi" languageCode="SL"/>
+    <ns:CodeDescription description="Ostatné príčíny" languageCode="SK"/>
+    <ns:CodeDescription description="Alte motive" languageCode="RO"/>
+    <ns:CodeDescription description="Inne przyczyny" languageCode="PL"/>
+    <ns:CodeDescription description="Citi iemesli" languageCode="LV"/>
+    <ns:CodeDescription description="Egyéb ok" languageCode="HU"/>
+    <ns:CodeDescription description="Muut syyt" languageCode="FI"/>
+    <ns:CodeDescription description="Other reasons" languageCode="EN"/>
+    <ns:CodeDescription description="andere Gründe" languageCode="DE"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="3" validFrom="2009-06-23" validTo="2009-07-16">
+    <ns:CodeDescription description="MRN nebo Entry key nejsou známy" languageCode="CS"/>
+    <ns:CodeDescription description="MRN eller Datanøgle ukendt" languageCode="DA"/>
+    <ns:CodeDescription description="MRN oder Nummer der Eingangszollstelle unbekannt" languageCode="DE"/>
+    <ns:CodeDescription description="MRN or Entry key unknown" languageCode="EN"/>
+    <ns:CodeDescription description="MRN vagy belépési kulcs ismeretlen" languageCode="HU"/>
+    <ns:CodeDescription description="MRN vai Entry key nav zināms" languageCode="LV"/>
+    <ns:CodeDescription description="MRN lub dane identyfikujące PDS nie istnieją" languageCode="PL"/>
+    <ns:CodeDescription description="MRN sau Entry key necunoscute" languageCode="RO"/>
+    <ns:CodeDescription description="MRN neznana" languageCode="SL"/>
+    <ns:CodeDescription description="MRN alebo vstupný kľúč neznáme" languageCode="SK"/>
+    <ns:CodeDescription description="NRM ou Dados Chave desconhecidos" languageCode="PT"/>
+    <ns:CodeDescription description="MRN of zoeksleutel onbekend" languageCode="NL"/>
+    <ns:CodeDescription description="MRN arba įvežimo raktas nežinomas" languageCode="LT"/>
+    <ns:CodeDescription description="MRN või Entry Key on tundmatu" languageCode="ET"/>
+    <ns:CodeDescription description="Άγνωστο MRN η άγνωστα αναγνωριστικά στοιχεία εισόδου (Entry Key)" languageCode="EL"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="3" validFrom="2009-07-17" validTo="2010-04-20">
+    <ns:CodeDescription description="MRN nebo Entry key nejsou známy" languageCode="CS"/>
+    <ns:CodeDescription description="MRN neznana" languageCode="SL"/>
+    <ns:CodeDescription description="MRN alebo vstupný kľúč neznáme" languageCode="SK"/>
+    <ns:CodeDescription description="MRN sau Entry key necunoscute" languageCode="RO"/>
+    <ns:CodeDescription description="NRM ou Dados Chave desconhecidos" languageCode="PT"/>
+    <ns:CodeDescription description="MRN lub dane identyfikujące PDS nie istnieją" languageCode="PL"/>
+    <ns:CodeDescription description="MRN of zoeksleutel onbekend" languageCode="NL"/>
+    <ns:CodeDescription description="MRN vai Entry key nav zināms" languageCode="LV"/>
+    <ns:CodeDescription description="MRN arba įvežimo raktas nežinomas" languageCode="LT"/>
+    <ns:CodeDescription description="MRN vagy belépési kulcs ismeretlen" languageCode="HU"/>
+    <ns:CodeDescription description="MRN tai yksilöivä kuljetusvälinetunnus tuntematon" languageCode="FI"/>
+    <ns:CodeDescription description="MRN või Entry Key on tundmatu" languageCode="ET"/>
+    <ns:CodeDescription description="MRN or Entry key unknown" languageCode="EN"/>
+    <ns:CodeDescription description="Άγνωστο MRN η άγνωστα αναγνωριστικά στοιχεία εισόδου (Entry Key)" languageCode="EL"/>
+    <ns:CodeDescription description="MRN oder Nummer der Eingangszollstelle unbekannt" languageCode="DE"/>
+    <ns:CodeDescription description="MRN eller Datanøgle ukendt" languageCode="DA"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="4" validFrom="2009-06-23" validTo="2009-07-16">
+    <ns:CodeDescription description="Jiné důvody" languageCode="CS"/>
+    <ns:CodeDescription description="Drugi razlogi" languageCode="SL"/>
+    <ns:CodeDescription description="Ostatné príčíny" languageCode="SK"/>
+    <ns:CodeDescription description="Alte motive" languageCode="RO"/>
+    <ns:CodeDescription description="Outras Razões" languageCode="PT"/>
+    <ns:CodeDescription description="Inne przyczyny" languageCode="PL"/>
+    <ns:CodeDescription description="andere reden" languageCode="NL"/>
+    <ns:CodeDescription description="Citi iemesli" languageCode="LV"/>
+    <ns:CodeDescription description="Kitos priežastys" languageCode="LT"/>
+    <ns:CodeDescription description="andere Gründe" languageCode="DE"/>
+    <ns:CodeDescription description="Άλλοι λόγοι" languageCode="EL"/>
+    <ns:CodeDescription description="Other reasons" languageCode="EN"/>
+    <ns:CodeDescription description="Egyéb ok" languageCode="HU"/>
+    <ns:CodeDescription description="Muud põhjused" languageCode="ET"/>
+    <ns:CodeDescription description="Andre årsager" languageCode="DA"/>
+  </ns:SimpleItem>
+  <ns:SimpleItem code="4" validFrom="2009-07-17" validTo="2010-04-20">
+    <ns:CodeDescription description="Jiné důvody" languageCode="CS"/>
+    <ns:CodeDescription description="Drugi razlogi" languageCode="SL"/>
+    <ns:CodeDescription description="Ostatné príčíny" languageCode="SK"/>
+    <ns:CodeDescription description="Alte motive" languageCode="RO"/>
+    <ns:CodeDescription description="Outras Razões" languageCode="PT"/>
+    <ns:CodeDescription description="Inne przyczyny" languageCode="PL"/>
+    <ns:CodeDescription description="andere reden" languageCode="NL"/>
+    <ns:CodeDescription description="Citi iemesli" languageCode="LV"/>
+    <ns:CodeDescription description="Kitos priežastys" languageCode="LT"/>
+    <ns:CodeDescription description="Egyéb ok" languageCode="HU"/>
+    <ns:CodeDescription description="Muut syyt" languageCode="FI"/>
+    <ns:CodeDescription description="Muud põhjused" languageCode="ET"/>
+    <ns:CodeDescription description="Other reasons" languageCode="EN"/>
+    <ns:CodeDescription description="Άλλοι λόγοι" languageCode="EL"/>
+    <ns:CodeDescription description="andere Gründe" languageCode="DE"/>
+    <ns:CodeDescription description="Andre årsager" languageCode="DA"/>
+  </ns:SimpleItem>
+</ns:ReferenceData>

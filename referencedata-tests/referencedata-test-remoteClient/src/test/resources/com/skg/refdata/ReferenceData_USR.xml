@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReferenceData xmlns="" messageId="USR">
+	<ReferenceDataType id="USR">
+		<NameAndDescritption name="Funkcjonariusze celni" description="Funkcjonariusze celni" languageCode="PL"/>
+		<NameAndDescritption name="Customs officers" description="Customs officers" languageCode="EN"/>
+		<SimpleItem code="pawelk@test.skg">
+			<CodeDescription description="Paweł Kasprzak" languageCode="PL"/>
+			<CodeDescription description="Paweł Kasprzak" languageCode="EN"/>
+		</SimpleItem>
+		<SimpleItem code="dariuszs@test.skg">
+			<CodeDescription description="Dariusz Skrudlik" languageCode="PL"/>
+			<CodeDescription description="Dariusz Skrudlik" languageCode="EN"/>
+		</SimpleItem>
+		<SimpleItem code="gb@test.skg">
+			<CodeDescription description="Grzegorz Białas" languageCode="PL"/>
+			<CodeDescription description="Grzegorz Białas" languageCode="EN"/>
+		</SimpleItem>
+		<SimpleItem code="johndoe@test.skg">
+			<CodeDescription description="John Doe" languageCode="PL"/>
+			<CodeDescription description="John Doe" languageCode="EN"/>
+		</SimpleItem>
+	</ReferenceDataType>
+</ReferenceData>
