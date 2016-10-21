@@ -1,0 +1,20 @@
+/* ==========================================
+** THIS FILE IS GENERATED WITH
+** THE CC-RESOURCEFACTORY TOOL.
+**
+** USER...........: P001002
+** PAINTER........: def
+** BUILD-FACTORY..: v1.6.036
+** BUILD-DATE.....: Sat Mar 08 13:06:23 CET 2008
+** BUILD-DIRECTORY: C:\Develop\DreBa\cc-framework
+** BUILD-FILE.....: C:\Develop\DreBa\cc-framework\build\resources\res-html.xml
+**
+** DO NOT MODIFY!
+** ==========================================
+*/
+
+/* Import the framework default styles */
+@import "menu.css";
+@import "controls.css";
+@import "forms.css";
+@import "panel.css";

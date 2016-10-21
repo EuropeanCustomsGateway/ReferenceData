@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReferenceData id="8" itemType="SimpleItem" lastChange="2013-08-13"
+               xmlns="http://rep.xmlstandards.eu/icdts/LT/schemas/ReferenceData.xsd">
+    <NameAndDescritption name="Kody krajów" description="" languageCode="PL"/>
+    <NameAndDescritption name="Country codes" description="" languageCode="EN"/>
+    <SimpleItem code="AD">
+        <CodeDescription description="Andora" languageCode="PL"/>
+        <CodeDescription description="Andorra" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AE">
+        <CodeDescription description="Zjedn.Emiraty Arabskie" languageCode="PL"/>
+        <CodeDescription description="United Arab Emirates" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AF">
+        <CodeDescription description="Afganistan" languageCode="PL"/>
+        <CodeDescription description="Afghanistan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AG">
+        <CodeDescription description="Antigua i Barbuda" languageCode="PL"/>
+        <CodeDescription description="Antigua and Barbuda" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AI">
+        <CodeDescription description="Anguilla" languageCode="PL"/>
+        <CodeDescription description="Anguilla" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AL">
+        <CodeDescription description="Albania" languageCode="PL"/>
+        <CodeDescription description="Albania" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AM">
+        <CodeDescription description="Armenia" languageCode="PL"/>
+        <CodeDescription description="Armenia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AN">
+        <CodeDescription description="Antyle Niderlandzkie" languageCode="PL"/>
+        <CodeDescription description="Netherlands Antilles" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AO">
+        <CodeDescription description="Angola" languageCode="PL"/>
+        <CodeDescription description="Angola" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AQ">
+        <CodeDescription description="Antarktyda" languageCode="PL"/>
+        <CodeDescription description="Antarctica" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AR">
+        <CodeDescription description="Argentyna" languageCode="PL"/>
+        <CodeDescription description="Argentina" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AS">
+        <CodeDescription description="Samoa Amerykańskie" languageCode="PL"/>
+        <CodeDescription description="American Samoa" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AT">
+        <CodeDescription description="Austria" languageCode="PL"/>
+        <CodeDescription description="Austria" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AU">
+        <CodeDescription description="Australia" languageCode="PL"/>
+        <CodeDescription description="Australia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AW">
+        <CodeDescription description="Aruba" languageCode="PL"/>
+        <CodeDescription description="Aruba" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="AZ">
+        <CodeDescription description="Azerbejdżan" languageCode="PL"/>
+        <CodeDescription description="Azerbaijan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BA">
+        <CodeDescription description="Bośnia i Hercegowina" languageCode="PL"/>
+        <CodeDescription description="Bosnia-Herzegovina" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BB">
+        <CodeDescription description="Barbados" languageCode="PL"/>
+        <CodeDescription description="Barbados" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BD">
+        <CodeDescription description="Bangladesz" languageCode="PL"/>
+        <CodeDescription description="Bangladesh" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BE">
+        <CodeDescription description="Belgia" languageCode="PL"/>
+        <CodeDescription description="Belgium" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BF">
+        <CodeDescription description="Burkina Faso" languageCode="PL"/>
+        <CodeDescription description="Burkina Faso" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BG">
+        <CodeDescription description="Bułgaria" languageCode="PL"/>
+        <CodeDescription description="Bulgaria" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BH">
+        <CodeDescription description="Bahrajn" languageCode="PL"/>
+        <CodeDescription description="Bahrain" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BI">
+        <CodeDescription description="Burundi" languageCode="PL"/>
+        <CodeDescription description="Burundi" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BJ">
+        <CodeDescription description="Benin" languageCode="PL"/>
+        <CodeDescription description="Benin" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BM">
+        <CodeDescription description="Bermudy" languageCode="PL"/>
+        <CodeDescription description="Bermuda" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BN">
+        <CodeDescription description="Brunei Darussalam" languageCode="PL"/>
+        <CodeDescription description="Brunei Darussalam" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BO">
+        <CodeDescription description="Boliwia" languageCode="PL"/>
+        <CodeDescription description="Bolivia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BR">
+        <CodeDescription description="Brazylia" languageCode="PL"/>
+        <CodeDescription description="Brazil" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BS">
+        <CodeDescription description="Bahamy" languageCode="PL"/>
+        <CodeDescription description="Bahamas" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BT">
+        <CodeDescription description="Bhutan" languageCode="PL"/>
+        <CodeDescription description="Bhutan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BV">
+        <CodeDescription description="Wyspa Bouveta" languageCode="PL"/>
+        <CodeDescription description="Bouvet Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BW">
+        <CodeDescription description="Botswana" languageCode="PL"/>
+        <CodeDescription description="Botswana" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BY">
+        <CodeDescription description="Białoruś" languageCode="PL"/>
+        <CodeDescription description="Belarus" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="BZ">
+        <CodeDescription description="Belize" languageCode="PL"/>
+        <CodeDescription description="Belize" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CA">
+        <CodeDescription description="Kanada" languageCode="PL"/>
+        <CodeDescription description="Canada" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CC">
+        <CodeDescription description="Wyspy Kokosowe (Keelinga)" languageCode="PL"/>
+        <CodeDescription description="Cocos Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CD">
+        <CodeDescription description="Kongo (d.Zair)" languageCode="PL"/>
+        <CodeDescription description="Congo (former Zair)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CF">
+        <CodeDescription description="Republika Środkowoafrykańska" languageCode="PL"/>
+        <CodeDescription description="Central African Republic" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CG">
+        <CodeDescription description="Kongo" languageCode="PL"/>
+        <CodeDescription description="Congo" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CH">
+        <CodeDescription description="Szwajcaria" languageCode="PL"/>
+        <CodeDescription description="Switzerland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CI">
+        <CodeDescription description="Wybrzeże Kości Słoniowej" languageCode="PL"/>
+        <CodeDescription description="Cote D'ivore" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CK">
+        <CodeDescription description="Wyspy Cooka" languageCode="PL"/>
+        <CodeDescription description="Cook Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CL">
+        <CodeDescription description="Chile" languageCode="PL"/>
+        <CodeDescription description="Chile" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CM">
+        <CodeDescription description="Kamerun" languageCode="PL"/>
+        <CodeDescription description="Cameroon" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CN">
+        <CodeDescription description="Chiny" languageCode="PL"/>
+        <CodeDescription description="China" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CO">
+        <CodeDescription description="Kolumbia" languageCode="PL"/>
+        <CodeDescription description="Colombia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CR">
+        <CodeDescription description="Kostaryka" languageCode="PL"/>
+        <CodeDescription description="Costa Rica" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CS" validTo="2005-05-31">
+        <CodeDescription description="Serbia i Czarnogóra" languageCode="PL"/>
+        <CodeDescription description="Serbia and Montenegro" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CU">
+        <CodeDescription description="Kuba" languageCode="PL"/>
+        <CodeDescription description="Cuba" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CV">
+        <CodeDescription description="Zielony Przylądek" languageCode="PL"/>
+        <CodeDescription description="Cape Verde" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CX">
+        <CodeDescription description="Wyspa Bożego Narodzenia" languageCode="PL"/>
+        <CodeDescription description="Christmas Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CY">
+        <CodeDescription description="Cypr" languageCode="PL"/>
+        <CodeDescription description="Cyprus" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="CZ">
+        <CodeDescription description="Republika Czeska" languageCode="PL"/>
+        <CodeDescription description="Czech Republic" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DE">
+        <CodeDescription description="Niemcy" languageCode="PL"/>
+        <CodeDescription description="Germany" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DJ">
+        <CodeDescription description="Dżibuti" languageCode="PL"/>
+        <CodeDescription description="Djibouti" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DK">
+        <CodeDescription description="Dania" languageCode="PL"/>
+        <CodeDescription description="Denmark" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DM">
+        <CodeDescription description="Dominika" languageCode="PL"/>
+        <CodeDescription description="Dominica" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DO">
+        <CodeDescription description="Dominikana" languageCode="PL"/>
+        <CodeDescription description="Dominican Republic" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="DZ">
+        <CodeDescription description="Algieria" languageCode="PL"/>
+        <CodeDescription description="Algeria" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="EC">
+        <CodeDescription description="Ekwador" languageCode="PL"/>
+        <CodeDescription description="Ecuador" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="EE">
+        <CodeDescription description="Estonia" languageCode="PL"/>
+        <CodeDescription description="Estonia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="EG">
+        <CodeDescription description="Egipt" languageCode="PL"/>
+        <CodeDescription description="Egypt" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="EH">
+        <CodeDescription description="Sahara Zachodnia" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ER">
+        <CodeDescription description="Erytrea" languageCode="PL"/>
+        <CodeDescription description="Eritrea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ES">
+        <CodeDescription description="Hiszpania" languageCode="PL"/>
+        <CodeDescription description="Spain" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ET">
+        <CodeDescription description="Etiopia" languageCode="PL"/>
+        <CodeDescription description="Ethiopia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="EU" validFrom="2005-06-01">
+        <CodeDescription description="Wspólnota Europejska" languageCode="PL"/>
+        <CodeDescription description="European Community" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FI">
+        <CodeDescription description="Finlandia" languageCode="PL"/>
+        <CodeDescription description="Finland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FJ">
+        <CodeDescription description="Fidżi Republika" languageCode="PL"/>
+        <CodeDescription description="Fiji" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FK">
+        <CodeDescription description="Falklandy" languageCode="PL"/>
+        <CodeDescription description="Falkland Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FM">
+        <CodeDescription description="Mikronezja" languageCode="PL"/>
+        <CodeDescription description="Micronesia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FO">
+        <CodeDescription description="Wyspy Owcze" languageCode="PL"/>
+        <CodeDescription description="Faroe Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="FR">
+        <CodeDescription description="Francja" languageCode="PL"/>
+        <CodeDescription description="France" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GA">
+        <CodeDescription description="Gabon" languageCode="PL"/>
+        <CodeDescription description="Gabon" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GB">
+        <CodeDescription description="Wielka Brytania" languageCode="PL"/>
+        <CodeDescription description="United Kingdom" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GD">
+        <CodeDescription description="Grenada" languageCode="PL"/>
+        <CodeDescription description="Grenada" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GE">
+        <CodeDescription description="Gruzja" languageCode="PL"/>
+        <CodeDescription description="Georgia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GF">
+        <CodeDescription description="Gujana Francuska" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GH">
+        <CodeDescription description="Ghana" languageCode="PL"/>
+        <CodeDescription description="Ghana" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GI">
+        <CodeDescription description="Gibraltar" languageCode="PL"/>
+        <CodeDescription description="Gibraltar" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GL">
+        <CodeDescription description="Grenlandia" languageCode="PL"/>
+        <CodeDescription description="Greenland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GM">
+        <CodeDescription description="Gambia" languageCode="PL"/>
+        <CodeDescription description="Gambia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GN">
+        <CodeDescription description="Gwinea" languageCode="PL"/>
+        <CodeDescription description="Guinea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GP">
+        <CodeDescription description="Gwadelupa" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GQ">
+        <CodeDescription description="Gwinea Równikowa" languageCode="PL"/>
+        <CodeDescription description="Equatorial Guinea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GR">
+        <CodeDescription description="Grecja" languageCode="PL"/>
+        <CodeDescription description="Greece" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GS">
+        <CodeDescription description="Wyspy Południowej Georgii i Wyspy Sandwich" languageCode="PL"/>
+        <CodeDescription description="South Georgia Islands and Sandwich Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GT">
+        <CodeDescription description="Gwatemala" languageCode="PL"/>
+        <CodeDescription description="Guatemala" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GU">
+        <CodeDescription description="Guam" languageCode="PL"/>
+        <CodeDescription description="Guam" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GW">
+        <CodeDescription description="Gwinea-Bissau" languageCode="PL"/>
+        <CodeDescription description="Guinea-Bissau" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="GY">
+        <CodeDescription description="Gujana" languageCode="PL"/>
+        <CodeDescription description="Guyana" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HK">
+        <CodeDescription description="Hongkong" languageCode="PL"/>
+        <CodeDescription description="Hong Kong" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HM">
+        <CodeDescription description="Heard i McDonald Wyspy" languageCode="PL"/>
+        <CodeDescription description="Heard Island and Mc Donald Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HN">
+        <CodeDescription description="Honduras" languageCode="PL"/>
+        <CodeDescription description="Honduras" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HR">
+        <CodeDescription description="Chorwacja" languageCode="PL"/>
+        <CodeDescription description="Croatia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HT">
+        <CodeDescription description="Haiti" languageCode="PL"/>
+        <CodeDescription description="Haiti" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="HU">
+        <CodeDescription description="Węgry" languageCode="PL"/>
+        <CodeDescription description="Hungary" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ID">
+        <CodeDescription description="Indonezja" languageCode="PL"/>
+        <CodeDescription description="Indonesia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IE">
+        <CodeDescription description="Irlandia" languageCode="PL"/>
+        <CodeDescription description="Ireland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IL">
+        <CodeDescription description="Izrael" languageCode="PL"/>
+        <CodeDescription description="Israel" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IN">
+        <CodeDescription description="India" languageCode="PL"/>
+        <CodeDescription description="India" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IO">
+        <CodeDescription description="Brytyjskie Terytorium Oceanu Indyjskiego" languageCode="PL"/>
+        <CodeDescription description="British Indian Ocean Territory" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IQ">
+        <CodeDescription description="Irak" languageCode="PL"/>
+        <CodeDescription description="Iraq" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IR">
+        <CodeDescription description="Iran" languageCode="PL"/>
+        <CodeDescription description="Iran" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IS">
+        <CodeDescription description="Islandia" languageCode="PL"/>
+        <CodeDescription description="Iceland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="IT">
+        <CodeDescription description="Włochy" languageCode="PL"/>
+        <CodeDescription description="Italy" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="JM">
+        <CodeDescription description="Jamajka" languageCode="PL"/>
+        <CodeDescription description="Jamaica" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="JO">
+        <CodeDescription description="Jordania" languageCode="PL"/>
+        <CodeDescription description="Jordan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="JP">
+        <CodeDescription description="Japonia" languageCode="PL"/>
+        <CodeDescription description="Japan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KE">
+        <CodeDescription description="Kenia" languageCode="PL"/>
+        <CodeDescription description="Kenya" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KG">
+        <CodeDescription description="Kirgistan" languageCode="PL"/>
+        <CodeDescription description="Kyrgyzstan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KH">
+        <CodeDescription description="Kambodża" languageCode="PL"/>
+        <CodeDescription description="Cambodia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KI">
+        <CodeDescription description="Kiribati" languageCode="PL"/>
+        <CodeDescription description="Kiribati" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KM">
+        <CodeDescription description="Komory" languageCode="PL"/>
+        <CodeDescription description="Comoros" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KN">
+        <CodeDescription description="St.Kitts i Nevis" languageCode="PL"/>
+        <CodeDescription description="St. Kitts and Nevis" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KP">
+        <CodeDescription description="Koreańska Republika Ludowo-Demokratyczna" languageCode="PL"/>
+        <CodeDescription description="North Korea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KR">
+        <CodeDescription description="Republika Korei" languageCode="PL"/>
+        <CodeDescription description="South Korea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KW">
+        <CodeDescription description="Kuwejt" languageCode="PL"/>
+        <CodeDescription description="Kuwait" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KY">
+        <CodeDescription description="Kajmany" languageCode="PL"/>
+        <CodeDescription description="Cayman Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="KZ">
+        <CodeDescription description="Kazachstan" languageCode="PL"/>
+        <CodeDescription description="Kazakhstan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LA">
+        <CodeDescription description="Laos" languageCode="PL"/>
+        <CodeDescription description="Laos" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LB">
+        <CodeDescription description="Liban" languageCode="PL"/>
+        <CodeDescription description="Lebanon" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LC">
+        <CodeDescription description="St.Lucia" languageCode="PL"/>
+        <CodeDescription description="St. Lucia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LI">
+        <CodeDescription description="Liechtenstein" languageCode="PL"/>
+        <CodeDescription description="Liechtenstein" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LK">
+        <CodeDescription description="Sri Lanka" languageCode="PL"/>
+        <CodeDescription description="Sri Lanka" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LR">
+        <CodeDescription description="Liberia" languageCode="PL"/>
+        <CodeDescription description="Liberia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LS">
+        <CodeDescription description="Lesotho" languageCode="PL"/>
+        <CodeDescription description="Lesotho" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LT">
+        <CodeDescription description="Litwa" languageCode="PL"/>
+        <CodeDescription description="Lithuania" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LU">
+        <CodeDescription description="Luksemburg" languageCode="PL"/>
+        <CodeDescription description="Luxembourg" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LV">
+        <CodeDescription description="Łotwa" languageCode="PL"/>
+        <CodeDescription description="Latvia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="LY">
+        <CodeDescription description="Libia" languageCode="PL"/>
+        <CodeDescription description="Libya" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MA">
+        <CodeDescription description="Maroko" languageCode="PL"/>
+        <CodeDescription description="Morocco" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MC">
+        <CodeDescription description="Monako" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MD">
+        <CodeDescription description="Mołdowa" languageCode="PL"/>
+        <CodeDescription description="Moldova" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MG">
+        <CodeDescription description="Madagaskar" languageCode="PL"/>
+        <CodeDescription description="Madagascar" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MH">
+        <CodeDescription description="Wyspy Marshalla" languageCode="PL"/>
+        <CodeDescription description="Marshall Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MK">
+        <CodeDescription description="Macedonia" languageCode="PL"/>
+        <CodeDescription description="Macedonia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ML">
+        <CodeDescription description="Mali" languageCode="PL"/>
+        <CodeDescription description="Mali" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MM">
+        <CodeDescription description="Myanmar (Birma)" languageCode="PL"/>
+        <CodeDescription description="Myanmar" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MN">
+        <CodeDescription description="Mongolia" languageCode="PL"/>
+        <CodeDescription description="Mongolia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MO">
+        <CodeDescription description="Makau" languageCode="PL"/>
+        <CodeDescription description="Macau" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MP">
+        <CodeDescription description="Mariany Północne" languageCode="PL"/>
+        <CodeDescription description="Northern Mariana Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MQ">
+        <CodeDescription description="Martynika" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MR">
+        <CodeDescription description="Mauretania" languageCode="PL"/>
+        <CodeDescription description="Mauritania" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MS">
+        <CodeDescription description="Montserrat" languageCode="PL"/>
+        <CodeDescription description="Montserrat" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MT">
+        <CodeDescription description="Malta" languageCode="PL"/>
+        <CodeDescription description="Malta" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MU">
+        <CodeDescription description="Mauritius" languageCode="PL"/>
+        <CodeDescription description="Mauritius" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MV">
+        <CodeDescription description="Malediwy" languageCode="PL"/>
+        <CodeDescription description="Maldives" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MW">
+        <CodeDescription description="Malawi" languageCode="PL"/>
+        <CodeDescription description="Malawi" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MX">
+        <CodeDescription description="Meksyk" languageCode="PL"/>
+        <CodeDescription description="Mexico" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MY">
+        <CodeDescription description="Malezja" languageCode="PL"/>
+        <CodeDescription description="Malaysia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="MZ">
+        <CodeDescription description="Mozambik" languageCode="PL"/>
+        <CodeDescription description="Mozambique" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NA">
+        <CodeDescription description="Namibia" languageCode="PL"/>
+        <CodeDescription description="Namibia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NC">
+        <CodeDescription description="Nowa Kaledonia" languageCode="PL"/>
+        <CodeDescription description="New Caledonia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NE">
+        <CodeDescription description="Niger" languageCode="PL"/>
+        <CodeDescription description="Niger" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NF">
+        <CodeDescription description="Norfolk" languageCode="PL"/>
+        <CodeDescription description="Norfolk Island" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NG">
+        <CodeDescription description="Nigeria" languageCode="PL"/>
+        <CodeDescription description="Nigeria" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NI">
+        <CodeDescription description="Nikaragua" languageCode="PL"/>
+        <CodeDescription description="Nicaragua" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NL">
+        <CodeDescription description="Niderlandy" languageCode="PL"/>
+        <CodeDescription description="Netherlands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NO">
+        <CodeDescription description="Norwegia" languageCode="PL"/>
+        <CodeDescription description="Norway" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NP">
+        <CodeDescription description="Nepal" languageCode="PL"/>
+        <CodeDescription description="Nepal" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NR">
+        <CodeDescription description="Nauru" languageCode="PL"/>
+        <CodeDescription description="Nauru" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NT">
+        <CodeDescription description="Strefa Neutralna" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NU">
+        <CodeDescription description="Niue" languageCode="PL"/>
+        <CodeDescription description="Niue" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="NZ">
+        <CodeDescription description="Nowa Zelandia" languageCode="PL"/>
+        <CodeDescription description="New Zealand" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="OM">
+        <CodeDescription description="Oman" languageCode="PL"/>
+        <CodeDescription description="Oman" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PA">
+        <CodeDescription description="Panama" languageCode="PL"/>
+        <CodeDescription description="Panama" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PE">
+        <CodeDescription description="Peru" languageCode="PL"/>
+        <CodeDescription description="Peru" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PF">
+        <CodeDescription description="Polinezja Francuska" languageCode="PL"/>
+        <CodeDescription description="French Polynesia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PG">
+        <CodeDescription description="Papua Nowa Gwinea" languageCode="PL"/>
+        <CodeDescription description="Papua New Guinea" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PH">
+        <CodeDescription description="Filipiny" languageCode="PL"/>
+        <CodeDescription description="Philippines" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PK">
+        <CodeDescription description="Pakistan" languageCode="PL"/>
+        <CodeDescription description="Pakistan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PL">
+        <CodeDescription description="Polska" languageCode="PL"/>
+        <CodeDescription description="Poland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PM">
+        <CodeDescription description="St.Pierre i Miquelon" languageCode="PL"/>
+        <CodeDescription description="St. Pierre and Miquelon" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PN">
+        <CodeDescription description="Pitcairn" languageCode="PL"/>
+        <CodeDescription description="Pitcairn" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PR">
+        <CodeDescription description="Portoryko" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PS">
+        <CodeDescription description="Okupowane Terytorium Palestyny" languageCode="PL"/>
+        <CodeDescription description="Occupied Palestinian Territory" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PT">
+        <CodeDescription description="Portugalia" languageCode="PL"/>
+        <CodeDescription description="Portugal" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PW">
+        <CodeDescription description="Palau" languageCode="PL"/>
+        <CodeDescription description="Palau" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="PY">
+        <CodeDescription description="Paragwaj" languageCode="PL"/>
+        <CodeDescription description="Paraguay" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QA">
+        <CodeDescription description="Katar" languageCode="PL"/>
+        <CodeDescription description="Qatar" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QQ" validTo="2005-12-31">
+        <CodeDescription description="Zapasy i zaopatrzenie" languageCode="PL"/>
+        <CodeDescription description="Stocks and supplies" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QR">
+        <CodeDescription description="Zapasy i zaopatrzenie w ramach handlu wewnątrz Wspólnoty" languageCode="PL"/>
+        <CodeDescription description="Stocks and supplies (intracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QS">
+        <CodeDescription description="Zapasy i zaopatrzenie w ramach handlu z krajami trzecimi" languageCode="PL"/>
+        <CodeDescription description="Stocks and supplies (extracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QU" validTo="2005-12-31">
+        <CodeDescription description="Niewyszczególnione kraje i terytoria" languageCode="PL"/>
+        <CodeDescription description="Not specified countries and territories" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QV">
+        <CodeDescription description="Kraje i terytoria niewyszczególnione w ramach handlu wewnątrz Wspólnoty" languageCode="PL"/>
+        <CodeDescription description="Not specified countries and territories (intracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QW">
+        <CodeDescription description="Kraje i terytoria niewyszczególnione w ramach handlu z krajami trzecimi" languageCode="PL"/>
+        <CodeDescription description="Not specified countries and territories (extracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QX" validTo="2005-12-31">
+        <CodeDescription description="Kraje i terytoria niewyszczególnione z przyczyn handlowych lub wojskowych" languageCode="PL"/>
+        <CodeDescription description="Countries and territories not specified due to military or commercial reasons" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QY" validTo="2005-12-31">
+        <CodeDescription description="QX w ramach handlu wewnątrz Wspólnoty" languageCode="PL"/>
+        <CodeDescription description="QX (intracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="QZ" validTo="2005-12-31">
+        <CodeDescription description="QX w ramach handlu z krajami trzecimi" languageCode="PL"/>
+        <CodeDescription description="QX (extracommunity trade)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="RE">
+        <CodeDescription description="Reunion" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="RO">
+        <CodeDescription description="Rumunia" languageCode="PL"/>
+        <CodeDescription description="Romania" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="RU">
+        <CodeDescription description="Rosja" languageCode="PL"/>
+        <CodeDescription description="Russian Federation" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="RW">
+        <CodeDescription description="Ruanda" languageCode="PL"/>
+        <CodeDescription description="Rwanda" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SA">
+        <CodeDescription description="Arabia Saudyjska" languageCode="PL"/>
+        <CodeDescription description="Saudi Arabia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SB">
+        <CodeDescription description="Wyspy Salomona" languageCode="PL"/>
+        <CodeDescription description="Solomon Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SC">
+        <CodeDescription description="Seszele" languageCode="PL"/>
+        <CodeDescription description="Seychelles" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SD">
+        <CodeDescription description="Sudan" languageCode="PL"/>
+        <CodeDescription description="Sudan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SE">
+        <CodeDescription description="Szwecja" languageCode="PL"/>
+        <CodeDescription description="Sweden" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SG">
+        <CodeDescription description="Singapur" languageCode="PL"/>
+        <CodeDescription description="Singapore" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SH">
+        <CodeDescription description="Święta Helena" languageCode="PL"/>
+        <CodeDescription description="St.Helena" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SI">
+        <CodeDescription description="Słowenia" languageCode="PL"/>
+        <CodeDescription description="Slovenia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SJ">
+        <CodeDescription description="Svalbard i Jan Meyen" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SK">
+        <CodeDescription description="Słowacja" languageCode="PL"/>
+        <CodeDescription description="Slovakia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SL">
+        <CodeDescription description="Sierra Leone" languageCode="PL"/>
+        <CodeDescription description="Sierra Leone" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SM">
+        <CodeDescription description="San Marino" languageCode="PL"/>
+        <CodeDescription description="San Marino" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SN">
+        <CodeDescription description="Senegal" languageCode="PL"/>
+        <CodeDescription description="Senegal" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SO">
+        <CodeDescription description="Somalia" languageCode="PL"/>
+        <CodeDescription description="Somalia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SR">
+        <CodeDescription description="Surinam" languageCode="PL"/>
+        <CodeDescription description="Surinam" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ST">
+        <CodeDescription description="Wyspy Św.Tomasza i Książęca" languageCode="PL"/>
+        <CodeDescription description="Sao Tome and Principe" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SV">
+        <CodeDescription description="Salwador" languageCode="PL"/>
+        <CodeDescription description="El Salvador" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SY">
+        <CodeDescription description="Syria" languageCode="PL"/>
+        <CodeDescription description="Syria" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="SZ">
+        <CodeDescription description="Suazi" languageCode="PL"/>
+        <CodeDescription description="Swaziland" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TC">
+        <CodeDescription description="Turks i Caicos" languageCode="PL"/>
+        <CodeDescription description="Turks and Caicos Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TD">
+        <CodeDescription description="Czad" languageCode="PL"/>
+        <CodeDescription description="Chad" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TF">
+        <CodeDescription description="Franc. Teryt. Płd." languageCode="PL"/>
+        <CodeDescription description="French Southern Territories" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TG">
+        <CodeDescription description="Togo" languageCode="PL"/>
+        <CodeDescription description="Togo" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TH">
+        <CodeDescription description="Tajlandia" languageCode="PL"/>
+        <CodeDescription description="Thailand" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TJ">
+        <CodeDescription description="Tadżykistan" languageCode="PL"/>
+        <CodeDescription description="Tajikistan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TK">
+        <CodeDescription description="Tokelau" languageCode="PL"/>
+        <CodeDescription description="Tokelau" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TL">
+        <CodeDescription description="Timor Wschodni" languageCode="PL"/>
+        <CodeDescription description="East Timor" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TM">
+        <CodeDescription description="Turkmenistan" languageCode="PL"/>
+        <CodeDescription description="Turkmenistan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TN">
+        <CodeDescription description="Tunezja" languageCode="PL"/>
+        <CodeDescription description="Tunisia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TO">
+        <CodeDescription description="Tonga" languageCode="PL"/>
+        <CodeDescription description="Tonga" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TP">
+        <CodeDescription description="Wschodni Timor" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TR">
+        <CodeDescription description="Turcja" languageCode="PL"/>
+        <CodeDescription description="Turkey" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TT">
+        <CodeDescription description="Trynidad i Tobago" languageCode="PL"/>
+        <CodeDescription description="Trinidad and Tobago" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TV">
+        <CodeDescription description="Tuvalu" languageCode="PL"/>
+        <CodeDescription description="Tuvalu" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TW">
+        <CodeDescription description="Tajwan" languageCode="PL"/>
+        <CodeDescription description="Taiwan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="TZ">
+        <CodeDescription description="Tanzania" languageCode="PL"/>
+        <CodeDescription description="Tanzania" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="UA">
+        <CodeDescription description="Ukraina" languageCode="PL"/>
+        <CodeDescription description="Ukraine" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="UG">
+        <CodeDescription description="Uganda" languageCode="PL"/>
+        <CodeDescription description="Uganda" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="UM">
+        <CodeDescription description="Minor (Powiernicze Wyspy Pacyfiku Stanów Zjednoczonych)" languageCode="PL"/>
+        <CodeDescription description="United States Minor Outlying Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="US">
+        <CodeDescription description="Stany Zjednoczone Ameryki" languageCode="PL"/>
+        <CodeDescription description="United States of America" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="UY">
+        <CodeDescription description="Urugwaj" languageCode="PL"/>
+        <CodeDescription description="Uruguay" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="UZ">
+        <CodeDescription description="Uzbekistan" languageCode="PL"/>
+        <CodeDescription description="Uzbekistan" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VA">
+        <CodeDescription description="Watykan" languageCode="PL"/>
+        <CodeDescription description="Vatican City State" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VC">
+        <CodeDescription description="St.Vincent i Grenadyny" languageCode="PL"/>
+        <CodeDescription description="St. Vincent and the Grenadines" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VE">
+        <CodeDescription description="Wenezuela" languageCode="PL"/>
+        <CodeDescription description="Venezuela" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VG">
+        <CodeDescription description="Wyspy Dziewicze-W.B." languageCode="PL"/>
+        <CodeDescription description="Virgin Isl. (British)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VI">
+        <CodeDescription description="Wyspy Dziewicze-USA" languageCode="PL"/>
+        <CodeDescription description="Virgin Isl. of the United St." languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VN">
+        <CodeDescription description="Wietnam" languageCode="PL"/>
+        <CodeDescription description="Vietnam" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="VU">
+        <CodeDescription description="Vanuatu" languageCode="PL"/>
+        <CodeDescription description="Vanuatu" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="WF">
+        <CodeDescription description="Wallis i Futuna" languageCode="PL"/>
+        <CodeDescription description="Wallis and Futuna Islands" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="WS">
+        <CodeDescription description="Samoa" languageCode="PL"/>
+        <CodeDescription description="Samoa" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XC">
+        <CodeDescription description="Ceuta" languageCode="PL"/>
+        <CodeDescription description="Ceuta" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XK" validFrom="2005-06-01">
+        <CodeDescription description="Kosowo (według określenia Rezolucji nr 1244 Rady Bezpieczeństwa ONZ, z dnia 10 czerwca 1999 r.)" languageCode="PL"/>
+        <CodeDescription description="Kosovo (As defined by United Nations Security Council Resolution 1244 of 10 June 1999)" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XL">
+        <CodeDescription description="Melilla" languageCode="PL"/>
+        <CodeDescription description="Melilla" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XM" validFrom="2005-06-01">
+        <CodeDescription description="Czarnogóra" languageCode="PL"/>
+        <CodeDescription description="Montenegro" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XO">
+        <CodeDescription description="Inne Organizacje Międzynarodowe" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XP">
+        <CodeDescription description="Nieznany Kraj Pozaeuropejski" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XS" validFrom="2005-06-01">
+        <CodeDescription description="Serbia" languageCode="PL"/>
+        <CodeDescription description="Serbia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XX">
+        <CodeDescription description="Składy Celne/WOC" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="XY">
+        <CodeDescription description="ONZ" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="YE">
+        <CodeDescription description="Jemen" languageCode="PL"/>
+        <CodeDescription description="Yemen" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="YT">
+        <CodeDescription description="Majotta" languageCode="PL"/>
+        <CodeDescription description="Mayotte" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="YU">
+        <CodeDescription description="Jugosławia" languageCode="PL"/>
+        <CodeDescription description="" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ZA">
+        <CodeDescription description="Republika Południowej Afryki" languageCode="PL"/>
+        <CodeDescription description="South Africa" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ZM">
+        <CodeDescription description="Zambia" languageCode="PL"/>
+        <CodeDescription description="Zambia" languageCode="EN"/>
+    </SimpleItem>
+    <SimpleItem code="ZW">
+        <CodeDescription description="Zimbabwe" languageCode="PL"/>
+        <CodeDescription description="Zimbabwe" languageCode="EN"/>
+    </SimpleItem>
+</ReferenceData>

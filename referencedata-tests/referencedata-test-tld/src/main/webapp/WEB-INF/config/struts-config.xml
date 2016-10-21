@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+    <form-beans>
+        <form-bean name="testForm" type="org.ecg.refdata.test.form.TestForm" />
+        <form-bean name="testList" type="org.ecg.refdata.test.form.TestForm" />
+    </form-beans>
+    <action-mappings>
+        <action path="/test" type="org.ecg.refdata.test.action.TestAction"
+                name="testForm" scope="request" input="/test.jsp"
+                unknown="false" validate="false">
+        </action>
+    </action-mappings>
+</struts-config>

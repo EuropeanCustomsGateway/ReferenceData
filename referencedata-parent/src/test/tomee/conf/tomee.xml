@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<openejb>
+    <Resource id="ReferenceDataDS" type="javax.sql.DataSource">
+        jdbcDriver = org.h2.Driver
+        jdbcUrl = jdbc:h2:./baza.db
+        jtaManaged = true
+        password = sa
+        userName = sa
+    </Resource>
+    <Deployments dir="apps" />
+    <Deployments dir="webapps" />
+</openejb>

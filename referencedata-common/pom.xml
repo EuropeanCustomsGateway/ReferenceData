@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ecg.referencedata</groupId>
+        <artifactId>referencedata-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../referencedata-parent</relativePath>
+    </parent>
+    <!--<groupId>org.ecg.referencedata</groupId>-->
+    <artifactId>referencedata-common</artifactId>
+    <packaging>jar</packaging>
+    <name>referencedata-common</name>
+    <description>Package consist of classes, interfaces which represents data
+        model. Also package containd classes which are used as transter
+        objects for dictionary datasources between business and web
+        layer.
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-digester</groupId>
+                    <artifactId>commons-digester</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+    </dependencies>
+</project>

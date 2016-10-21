@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+    <bean id="datasourceEJB"
+              class="org.ecg.refdata.datasource.ejb.client.PersistenceBeanClient"
+              singleton="true">
+        <property name="jnpPersistanceBeanLocation" value="localhost:1299"></property>
+        <!--
+                <property name="jnpPersistanceBeanLocation" value="10.133.12.198:1299"></property>
+        -->
+    </bean>
+
+    <bean id="referenceData" class="org.ecg.refdata.core.common.CommonReferenceDataConfig">
+        <property name="datasources">
+            <map>
+                <entry key="datasourceEJB" value-ref="datasourceEJB"/>
+            </map>
+        </property>
+    </bean>
+	
+</beans>

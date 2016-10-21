@@ -1,0 +1,144 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ecg.referencedata</groupId>
+        <artifactId>referencedata-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../referencedata-parent</relativePath>
+    </parent>
+    <groupId>org.ecg.referencedata.datasources</groupId>
+    <artifactId>referencedata-DS-ejb</artifactId>
+    <packaging>ejb</packaging>
+    <name>referencedata-DS-ejb</name>
+    <description>
+        Current package represents EJB peristence datasource and consist
+        of all classes, interfaces used for it's purposes. It contains
+        all entities for data model, access java bean and all additional
+        classes, interfaces.
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.ecg.referencedata</groupId>
+            <artifactId>referencedata-common</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>ejb-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.3.2.ga</version>
+            <scope>provided</scope>
+        </dependency>     
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!--        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+            <version>3.2.2.ga</version>
+            <scope>provided</scope>
+        </dependency>-->
+        <!--        <dependency>
+            <groupId>jboss</groupId>
+            <artifactId>jbossall-client</artifactId>
+            <version>4.2.3.GA</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jboss</groupId>
+            <artifactId>jbossws-spi</artifactId>
+            <version>4.2.3.GA</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jboss</groupId>
+            <artifactId>jboss-annotations-ejb3</artifactId>
+            <version>4.2.3.GA</version>
+            <scope>provided</scope>
+        </dependency>-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.192</version>
+        </dependency>
+    </dependencies>
+   
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ejb-plugin</artifactId>
+                <configuration>
+                    <ejbVersion>3.0</ejbVersion>
+                    <generateClient>true</generateClient>
+                    <clientIncludes>
+                        <clientInclude>org/ecg/refdata/datasource/ejb/PersistenceDataSourceSB.class</clientInclude>
+                        <clientInclude>org/ecg/refdata/datasource/ejb/PersistenceDataSourceSBLocal.class</clientInclude>
+                        <clientInclude>org/ecg/refdata/datasource/ejb/PersistenceDataSourceSBRemote.class</clientInclude>
+                        <clientInclude>org/ecg/refdata/datasource/entities/**/*.class</clientInclude>
+                        <clientInclude>ejb-refdata-mapping.properties</clientInclude>
+                    </clientIncludes>
+                    <clientExcludes>
+                    </clientExcludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

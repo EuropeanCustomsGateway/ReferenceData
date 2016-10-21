@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ecg.referencedata</groupId>
+        <artifactId>referencedata-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../referencedata-parent</relativePath>
+    </parent>
+    <groupId>org.ecg.referencedata.datasources</groupId>
+    <artifactId>referencedata-DS-xml</artifactId>
+    <packaging>jar</packaging>
+    <name>referencedata-DS-xml</name>
+    <description>
+        Package represents XML-file datasource and contain all classes,
+        interfaces for XML-obcest mapping. Additional JAXB mapping
+        classes and many other additional helper classes.
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ecg.referencedata</groupId>
+            <artifactId>referencedata-common</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

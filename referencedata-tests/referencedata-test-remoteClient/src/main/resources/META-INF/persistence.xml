@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="EjbDataSourcePersistenceUnit" transaction-type="JTA">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <!-- Abstract classes from commons -->
+    <class>org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractDataType</class>
+    <class>org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractDataTypeEntity</class>
+    <class>org.ecg.refdata.datasource.entities.commons.ReferenceDataAbstractItemEntity</class>
+    <class>org.ecg.refdata.datasource.entities.commons.ReferenceDataPeriodicValidityAbstractItem</class>
+    <!-- Proper JPA entities -->
+    <!-- Customs office entities -->
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeDataType</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeDedicatedTraderItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeLSDItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeRoleTrafficItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeSpecificNotesItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeTimetableItem</class>
+    <class>org.ecg.refdata.datasource.entities.customsOffice.CustomsOfficeTimetableLineItem</class>
+    <!-- Holiday entities -->
+    <class>org.ecg.refdata.datasource.entities.countryHoliday.CountryHolidayDataType</class>
+    <class>org.ecg.refdata.datasource.entities.countryHoliday.CountryHolidayItem</class>
+    <class>org.ecg.refdata.datasource.entities.countryHoliday.HolidayItem</class>
+    <class>org.ecg.refdata.datasource.entities.countryHoliday.HolidayLSDItem</class>
+    <!-- Country entities -->
+    <class>org.ecg.refdata.datasource.entities.countryRegion.CountryRegionDataType</class>
+    <class>org.ecg.refdata.datasource.entities.countryRegion.CountryRegionItem</class>
+    <class>org.ecg.refdata.datasource.entities.countryRegion.CountryRegionLSDItem</class>
+    <!-- Other entities -->
+    <class>org.ecg.refdata.datasource.entities.NameAndDescriptionItem</class>
+    <class>org.ecg.refdata.datasource.entities.codeDescription.CodeDescriptionItem</class>
+    <class>org.ecg.refdata.datasource.entities.correlation.CorrelationDataType</class>
+    <class>org.ecg.refdata.datasource.entities.correlation.CorrelationItem</class>
+    <class>org.ecg.refdata.datasource.entities.country.CountryDataType</class>
+    <class>org.ecg.refdata.datasource.entities.country.CountryItem</class>
+    <class>org.ecg.refdata.datasource.entities.documentType.DocumentTypeDataType</class>
+    <class>org.ecg.refdata.datasource.entities.documentType.DocumentTypeItem</class>
+    <class>org.ecg.refdata.datasource.entities.exchangeRate.ExchangeRateDataType</class>
+    <class>org.ecg.refdata.datasource.entities.exchangeRate.ExchangeRateItem</class>
+    <class>org.ecg.refdata.datasource.entities.location.LocationDataType</class>
+    <class>org.ecg.refdata.datasource.entities.location.LocationItem</class>
+    <!--
+		<class>org.ecg.refdata.datasource.entities.currencyCode.CurrencyCodeDataType</class>
+		<class>org.ecg.refdata.datasource.entities.currencyCode.CurrencyCodeItem</class>
+        <class>org.ecg.refdata.datasource.entities.sensitiveGoodsCode.SensitiveGoodsCodeDataType</class>
+		<class>org.ecg.refdata.datasource.entities.sensitiveGoodsCode.SensitiveGoodsCodeItem</class>
+        -->
+    <class>org.ecg.refdata.datasource.entities.simpleItem.SimpleItemDataType</class>
+    <class>org.ecg.refdata.datasource.entities.simpleItem.SimpleItemItem</class>
+    <class>org.ecg.refdata.datasource.entities.unLocode.UnLocodeDataType</class>
+    <class>org.ecg.refdata.datasource.entities.unLocode.UnLocodeItem</class>
+    <class>org.ecg.refdata.datasource.entities.comodityCode.CommodityCodeDataType</class>
+    <class>org.ecg.refdata.datasource.entities.comodityCode.CommodityCodeItem</class>
+    <class>org.ecg.refdata.datasource.entities.countryUnavailability.CountryUnavailabilityDataType</class>
+    <class>org.ecg.refdata.datasource.entities.countryUnavailability.CountryUnavailabilityItem</class>
+    <class>org.ecg.refdata.datasource.entities.countryUnavailability.SystemUnavailabilityItem</class>
+    <class>org.ecg.refdata.datasource.entities.localClearanceAuthorization.LocalClearanceAuthorizationDataType</class>
+    <class>org.ecg.refdata.datasource.entities.localClearanceAuthorization.LocalClearanceAuthorizationItem</class>
+    <class>org.ecg.refdata.datasource.entities.valueAdjustment.ValueAdjustmentDataType</class>
+    <class>org.ecg.refdata.datasource.entities.valueAdjustment.ValueAdjustmentItem</class>
+    <properties>
+      <property name="hibernate.query.factory_class" value="org.hibernate.hql.classic.ClassicQueryTranslatorFactory"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle9iDialect"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
+      <!--
+			<property name="hibernate.connection.url" value="jdbc:oracle:thin:@10.133.12.191:1521:ecs" />
+			<property name="hibernate.connection.username" value="REFDATA2" />
+			<property name="hibernate.connection.password" value="sasasa" />
+            -->
+      <property name="hibernate.transaction.flush_before_completion" value="true"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.format_sql" value="true"/>
+      <property name="hibernate.validator.apply_to_ddl" value="false"/>
+      <property name="hibernate.validator.autoregister_listeners" value="false"/>
+      <property name="hibernate.cache.use_query_cache" value="false"/>
+      <property name="hibernate.cache.use_second_level_cache" value="false"/>
+      <!-- <property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider" />  -->
+    </properties>
+  </persistence-unit>
+</persistence>
