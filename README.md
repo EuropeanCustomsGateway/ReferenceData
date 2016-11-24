@@ -12,3 +12,5 @@ b) po uruchomieniu serwera dostepne sa aplikacje:<br/>
 
     http://localhost:8080/referencedata-sampledata-generator/generator.jsp - sluzy do ladowania testowych slownikow
     http://localhost:8080/referencedata-test-tld/test.jsp - testowa aplikacja do podgladu dzialania taglib-a i zaladowanych slownikow
+    
+Oprogramowanie zostało zaprojektowane i wykonane przez firmę SKG S.A. w Bielsku-Białej, jako jeden z rezultatów projektu „Modularny system teleinformatyczny wspomagający obsługę procesów międzynarodowej dostawy towarów”, zrealizowanego w ramach Programu Operacyjnego Innowacyjna Gospodarka 2007-2013. 
